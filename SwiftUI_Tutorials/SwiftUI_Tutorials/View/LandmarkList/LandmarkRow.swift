@@ -23,30 +23,35 @@ struct LandmarkRow: View {
                 .padding(.trailing, 10)
             
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
 
 #Preview {
-    LandmarkRow(landmark: landmarks[0])
+    LandmarkRow(landmark: ModelData().landmarks[0])
 }
 
 #Preview("Turtle Rock") {
-    LandmarkRow(landmark: landmarks[0])
+    LandmarkRow(landmark: ModelData().landmarks[0])
 }
 
 #Preview {
     Group {
-        LandmarkRow(landmark: landmarks[0])
-        LandmarkRow(landmark: landmarks[1])
-        LandmarkRow(landmark: landmarks[2])
+        LandmarkRow(landmark: ModelData().landmarks[0])
+        LandmarkRow(landmark: ModelData().landmarks[1])
+        LandmarkRow(landmark: ModelData().landmarks[2])
     }
 }
 
 #Preview {
     List {
-        LandmarkRow(landmark: landmarks[0])
-        LandmarkRow(landmark: landmarks[1])
-        LandmarkRow(landmark: landmarks[2])
+        LandmarkRow(landmark: ModelData().landmarks[0])
+        LandmarkRow(landmark: ModelData().landmarks[1])
+        LandmarkRow(landmark: ModelData().landmarks[2])
     }
 }
