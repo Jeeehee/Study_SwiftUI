@@ -1,4 +1,6 @@
-# Section 1. **Create a New Project and Explore the Canvas**
+# Creating and combining views
+
+## Section 1. **Create a New Project and Explore the Canvas**
 
 ```swift
 @main
@@ -22,7 +24,7 @@ struct SwiftUI_TutorialsApp: App {
 
 <br>
 
-# Section 2. **Customize the Text View**
+## Section 2. **Customize the Text View**
 
 > You can customize a view’s display by changing your code, or by using the inspector to discover what’s available and to help you write code.
 > As you build the Landmarks app, you can use any combination of editors: the source editor, the canvas, or the inspectors. Your code stays updated, regardless of which tool you use.
@@ -47,7 +49,7 @@ struct SwiftUI_TutorialsApp: App {
 
 <br>
 
-# **Section 3. Combine views using stacks**
+## **Section 3. Combine views using stacks**
 
 > the `body` property only returns a single view. You can combine and embed multiple views in stacks, which group views together horizontally, vertically, or back-to-front.
 
@@ -75,7 +77,7 @@ struct SwiftUI_TutorialsApp: App {
     
 <br>
 
-# **Section 4. Create a custom image view**
+## **Section 4. Create a custom image view**
 
 ```swift
 struct ImageView: View {
@@ -97,6 +99,6 @@ struct ImageView: View {
 
 <br>
 
-# **Section 5~**
+## **Section 5~**
 
 ![7](/img/7.png)
